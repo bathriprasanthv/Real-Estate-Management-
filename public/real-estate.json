@@ -1,0 +1,267 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "type": "Apartment",
+      "title": "2 BHK Apartment",
+      "location": "Chennai",
+      "size": "950 sqft",
+      "price": "₹42,00,000",
+      "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 2,
+      "type": "Apartment",
+      "title": "3 BHK Apartment",
+      "location": "Bangalore",
+      "size": "1200 sqft",
+      "price": "₹58,00,000",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 3,
+      "type": "Apartment",
+      "title": "1 BHK Apartment",
+      "location": "Coimbatore",
+      "size": "650 sqft",
+      "price": "₹28,00,000",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 4,
+      "type": "Apartment",
+      "title": "Luxury Apartment",
+      "location": "Chennai",
+      "size": "1400 sqft",
+      "price": "₹72,00,000",
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 5,
+      "type": "Apartment",
+      "title": "Studio Apartment",
+      "location": "Bangalore",
+      "size": "480 sqft",
+      "price": "₹22,00,000",
+      "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 6,
+      "type": "Apartment",
+      "title": "Premium Flat",
+      "location": "Chennai",
+      "size": "1050 sqft",
+      "price": "₹48,00,000",
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 7,
+      "type": "Apartment",
+      "title": "High Rise Apartment",
+      "location": "Hyderabad",
+      "size": "1100 sqft",
+      "price": "₹50,00,000",
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 8,
+      "type": "Apartment",
+      "title": "City View Apartment",
+      "location": "Pune",
+      "size": "980 sqft",
+      "price": "₹46,00,000",
+      "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 9,
+      "type": "Apartment",
+      "title": "Budget Apartment",
+      "location": "Madurai",
+      "size": "700 sqft",
+      "price": "₹26,00,000",
+      "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 10,
+      "type": "Apartment",
+      "title": "Sea View Apartment",
+      "location": "Chennai",
+      "size": "1450 sqft",
+      "price": "₹85,00,000",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+    },
+
+    {
+      "id": 11,
+      "type": "Villa",
+      "title": "Independent Villa",
+      "location": "Coimbatore",
+      "size": "2000 sqft",
+      "price": "₹88,00,000",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 12,
+      "type": "Villa",
+      "title": "Garden Villa",
+      "location": "Hyderabad",
+      "size": "2100 sqft",
+      "price": "₹92,00,000",
+      "image": "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 13,
+      "type": "Villa",
+      "title": "Modern Villa",
+      "location": "Bangalore",
+      "size": "2500 sqft",
+      "price": "₹1,15,00,000",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 14,
+      "type": "Villa",
+      "title": "Corner Villa",
+      "location": "Chennai",
+      "size": "2300 sqft",
+      "price": "₹1,05,00,000",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 15,
+      "type": "Villa",
+      "title": "Duplex Villa",
+      "location": "Coimbatore",
+      "size": "2600 sqft",
+      "price": "₹1,10,00,000",
+      "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 16,
+      "type": "Villa",
+      "title": "Premium Villa",
+      "location": "Trichy",
+      "size": "2200 sqft",
+      "price": "₹98,00,000",
+      "image": "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 17,
+      "type": "Villa",
+      "title": "Luxury Gated Villa",
+      "location": "Chennai",
+      "size": "3000 sqft",
+      "price": "₹1,60,00,000",
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 18,
+      "type": "Villa",
+      "title": "Hill View Villa",
+      "location": "Ooty",
+      "size": "2800 sqft",
+      "price": "₹1,35,00,000",
+      "image": "https://images.unsplash.com/photo-1599423300746-b62533397364?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 19,
+      "type": "Villa",
+      "title": "Lake Side Villa",
+      "location": "Bangalore",
+      "size": "2700 sqft",
+      "price": "₹1,30,00,000",
+      "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 20,
+      "type": "Villa",
+      "title": "Resort Style Villa",
+      "location": "Goa",
+      "size": "2900 sqft",
+      "price": "₹1,45,00,000",
+      "image": "https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?auto=format&fit=crop&w=1200&q=80"
+    },
+
+    {
+      "id": 21,
+      "type": "Land",
+      "title": "Residential Plot",
+      "location": "Chennai",
+      "size": "1200 sqft",
+      "price": "₹18,00,000",
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 22,
+      "type": "Land",
+      "title": "Corner Plot",
+      "location": "Bangalore",
+      "size": "1500 sqft",
+      "price": "₹25,00,000",
+      "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 23,
+      "type": "Land",
+      "title": "DTCP Approved Plot",
+      "location": "Coimbatore",
+      "size": "1800 sqft",
+      "price": "₹22,00,000",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 24,
+      "type": "Land",
+      "title": "Farm Land",
+      "location": "Erode",
+      "size": "3000 sqft",
+      "price": "₹30,00,000",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 25,
+      "type": "Land",
+      "title": "Investment Plot",
+      "location": "Hyderabad",
+      "size": "2000 sqft",
+      "price": "₹27,00,000",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 26,
+      "type": "Land",
+      "title": "Gated Community Plot",
+      "location": "Bangalore",
+      "size": "2400 sqft",
+      "price": "₹35,00,000",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 27,
+      "type": "Land",
+      "title": "Villa Plot",
+      "location": "Chennai",
+      "size": "1600 sqft",
+      "price": "₹26,00,000",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 28,
+      "type": "Land",
+      "title": "Highway Plot",
+      "location": "Salem",
+      "size": "2500 sqft",
+      "price": "₹32,00,000",
+      "image": "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": 29,
+      "type": "Land",
+      "title": "Residential Land",
+      "location": "Trichy",
+      "size": "1400 sqft",
+      "price": "₹20,00,000",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+    }
+  ]
+}

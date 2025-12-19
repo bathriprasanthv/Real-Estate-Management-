@@ -1,0 +1,128 @@
+.productContainer {
+  padding: 60px 20px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.productContainer h1 {
+  text-align: center;
+  color: #1e40af;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.propertiesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.propertyCard {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 25px rgba(59, 130, 246, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  height: fit-content;
+}
+
+.propertyCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 45px rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+}
+
+.propertyCard img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.propertyCard:hover img {
+  transform: scale(1.05);
+}
+
+.propertyInfo {
+  padding: 1.5rem;
+}
+
+.propertyInfo h3 {
+  color: #1e40af;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.3;
+}
+
+.location {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: #1e40af;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 12px 0;
+}
+
+.type {
+  background-color: #dbeafe;
+  color: #1e40af;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.size {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.bookButton {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  transition: all 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bookButton:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
+.status {
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.status.sold {
+  background-color: #ffebee;
+  color: #d32f2f;
+  border: 1px solid #ef5350;
+}

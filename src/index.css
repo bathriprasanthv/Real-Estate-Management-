@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global color theme */
+:root {
+  --cyan-light: #7fd6e8;
+  --teal-light: #4fb0c6;
+  --blue-primary: #007fa3;
+  --blue-muted: #9bbfcc;
+  --blue-medium: #4a9bb8;
+  --blue-dark: #004f6e;
+  --navy-dark: #00205b;
+
+  --black: #000000;
+  --charcoal: #1a1a1a;
+
+  --primary-color: #007fa3;
+  --primary-hover: #004f6e;
+  --secondary-color: #9bbfcc;
+  --accent-color: #4fb0c6;
+
+  --success-color: #10b981;
+  --danger-color: #ef4444;
+
+  --background-color: linear-gradient(
+    135deg,
+    #f8fafc 0%,
+    rgba(127, 214, 232, 0.05) 100%
+  );
+
+  --surface-color: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #00205b;
+  --text-muted: #9bbfcc;
+
+  --border-color: rgba(0, 127, 163, 0.2);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* Code text */
+code {
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #f1f5f9;
+  padding: 2px 4px;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+/* Form elements */
+input,
+textarea,
+select {
+  font-family: inherit;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(0, 127, 163, 0.15);
+}

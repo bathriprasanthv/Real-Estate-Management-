@@ -1,0 +1,113 @@
+.homeContainer {
+  background: #ffffff;
+}
+
+.heroSection {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.heroSection h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heroSection p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.heroSection button {
+  background: #ffffff;
+  color: #1e40af;
+  border: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heroSection button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.homeAbout {
+  padding: 80px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.homeAbout h2 {
+  color: #1e40af;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homeAbout p {
+  font-size: 1.1rem;
+  color: #64748b;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.categorySection {
+  padding: 80px 20px;
+  background: #f1f5f9;
+}
+
+.categorySection h2 {
+  text-align: center;
+  color: #1e40af;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categoryCards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.categoryCard {
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  width: 240px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(59, 130, 246, 0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1e40af;
+  border: 1px solid #e2e8f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categoryCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+  background: #ffffff;
+}

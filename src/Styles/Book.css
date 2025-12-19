@@ -1,0 +1,70 @@
+.bookContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: transparent;
+  padding: 20px;
+}
+
+.bookCard {
+  background: rgba(224, 247, 250, 0.95);
+  backdrop-filter: blur(15px);
+  padding: 60px 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 188, 212, 0.2);
+  max-width: 600px;
+  border: 2px solid #4caf50;
+}
+
+.bookCard h1 {
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.bookCard p {
+  color: #1565c0;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.backButton {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 30px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 25px rgba(255, 152, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.backButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(255, 235, 59, 0.6);
+  background: linear-gradient(135deg, #ffeb3b 0%, #ffc107 100%);
+}
+
+.propertyDetails {
+  background-color: rgba(179, 229, 252, 0.5);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border-left: 4px solid #4caf50;
+}
+
+.propertyDetails h3 {
+  color: #0d47a1;
+  margin-bottom: 8px;
+}
+
+.propertyDetails p {
+  margin: 5px 0;
+  font-weight: 500;
+  color: #1565c0;
+}
