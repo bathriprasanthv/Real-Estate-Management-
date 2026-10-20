@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Header from "./Common/Header";
+
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     };
     fetchResponse();
   }, []);
+
 
   return (
     <div className="App">

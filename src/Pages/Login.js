@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 import "./../Styles/Login.css";
 
 const Login = () => {
@@ -10,30 +11,22 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  // Login validation
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    console.log("Login attempt:", { email, password });
-    
-    // Simple admin login check
+    // Admin login check
     if (email === "abc@gmail.com" && password === "a123") {
-      console.log("✅ Login successful - Admin access granted");
       localStorage.setItem("auth", true);
-      
-      // Clear form fields
-      setEmail("");
-      setPassword("");
-      
       navigate("/admin");
-    } else {
-      console.log("❌ Login failed - Invalid credentials");
-      console.log("Valid credentials: abc@gmail.com / a123");
-      
-      // Clear form fields on failed login too
-      setEmail("");
-      setPassword("");
+      return;
     }
+
+    // Any other email/password goes to home page
+    localStorage.setItem("user", JSON.stringify({email, userType: "customer"}));
+    navigate("/");
+    
+    setEmail("");
+    setPassword("");
   };
 
   return (
@@ -58,6 +51,13 @@ const Login = () => {
         />
 
         <button type="submit">Login</button>
+        
+        <p>
+          Don't have an account? 
+          <span onClick={() => navigate("/register")} style={{color: "blue", cursor: "pointer"}}>
+            Register here
+          </span>
+        </p>
       </form>
     </div>
   );

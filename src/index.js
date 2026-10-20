@@ -10,6 +10,7 @@ import Contact from "./Pages/Contact";
 import MyCart from "./Pages/MyCart";
 import Book from "./Pages/Book";
 import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 import Admin from "./Pages/Admin";
 
 import "./index.css";
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
       },
       {
         path: "/admin",

@@ -5,7 +5,7 @@ const Estate = ({ rooms }) => {
 
   return (
     <div className="estateContainer">
-      {rooms.map((room) => (
+      {rooms?.map((room) => (
         <div
           key={room.id}
           className="estateCard"
